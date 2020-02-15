@@ -27,7 +27,7 @@ void pif() {
             flag = true;
         }
         if (if_acceptable(i, k)) {
-            cout << i << "^2\t" << k << "^2\t" << m << "^2\t" << endl;
+            printf("%d %s %d %s %d %s",i,"^2\t",k,"^2\t",m,"^2\t\n");
             count++;
             if (flag) {
                 multip++;
@@ -46,3 +46,4 @@ int main() {
 
     return 0;
 }
+//https://github.com/sviridchik/lab1/blob/master/main.cpp
